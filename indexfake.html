@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="discovermore_logo.css">
+    <title>bianchi</title>
+
+    <style>
+        /* *{
+            outline:red 1px solid;
+        } */
+
+        .allbgcolor{
+            background-color: #111;
+        }
+
+        .navtitle{
+            margin:0 0 0 20px;
+            font-weight: bold;
+        }
+
+        .navbar{
+            background-color: #ccc;
+        }
+
+        .navright{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .global{
+            margin:0 40px;
+        }
+
+        .end{
+            margin:0 40px;
+        }
+        .bgpicture{
+            width: 100%;
+            height: 930px;
+            background: url('images/OP_201014_Bianchi_Specialissima_0782.jpg') center center no-repeat;
+            background-size: cover;
+            margin: 0 auto;
+        }
+
+        .logo{
+            width: 130px;
+            margin: 50px;
+        }
+
+        .titleword{
+            margin: 150px auto auto auto;
+            width: 60%;
+        }
+
+        .text-white{
+            margin: 0px;
+        }
+
+        .biggesttitle{
+            /* margin:0 20%; */
+            font-size: 70px;
+            font-weight: 700;
+            line-height: 4rem;
+        }
+
+        .second_part_of_title{
+            display:flex;
+            justify-content: space-between;
+        }
+
+        .line_bellow_title{
+            width: 100%; 
+            /* justify-content: flex-start; */
+            margin-right: 10%;
+            border-top: aqua solid 2px;
+        }
+
+        .the_right_part_of_secondtitle{
+            margin-left: 20%;
+        } 
+        /* ---------------------------------------------------------------- */
+
+        .content_box{
+            justify-content: center;
+        }
+
+        .main_content{
+            max-width: 849px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .main_content p{
+            max-width: 849px;
+            /* 這個運用有什麼限制嗎 他最後會消失....  */
+            /* aspect-ratio: auto 849/548; */
+            margin:50px 0;
+            
+        }
+
+        .main_content p img{
+            width: 100%;
+        }
+
+        .middle_bar{
+            font-family: NeusaNextPro-Comp;
+            display: flex;
+            justify-content: center;
+            background-color: #55b7b3;
+            padding: 13px 0;
+            margin: 24px 0 85px 0;
+            font-weight: 700;
+            color: #111;
+            font-size: .95rem;
+            letter-spacing: 1px;
+            line-height: 48px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .middle_bar a{
+            color:#000;
+        }
+
+        /* 下面這行沒屁用 為啥? */
+        .new_bianchi.a:link{
+            color: #55b7b3;
+        }
+
+        .the_word_bellow_middle_bar{
+            padding: 25px;
+            margin-top: 24px;
+            margin-bottom: 15px;
+            font-size: 6rem;
+            /* 字形是不是要外掛字體近來才能解決? */
+            font-family: NeusaNextPro-Comp;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .secondone_part_of_main{
+            display: flex;
+            margin:0 15px;
+            justify-content: space-between;
+        }
+
+        .secondtwo_part_of_main{
+            display: flex;
+            margin: 122.5px 15px;
+            justify-content: space-between;
+        }
+
+        .secondthird_part_of_main{
+            display: flex;
+            margin:0 15px;
+            justify-content: space-between;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div class="container-field">
+            <div class="navbar bg-dark">
+                <div class="navleft">
+                    <p class="navtitle text-light">Choose your country and language to view local content</p>
+                </div>
+                    
+                <div class="navright">
+                        <div class="dropdown global">
+                            <button class="btn btn-secondary dropdown-toggle bg-dark text-info" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Global
+                            </button>
+                            <div class="dropdown-menu bg-dark " aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item text-light" href="#">Global</a>
+                            <a class="dropdown-item text-light" href="#">Austria</a>
+                            <a class="dropdown-item text-light" href="#">Canada</a>
+                            <a class="dropdown-item text-light" href="#">Finland</a>
+                            <a class="dropdown-item text-light" href="#">Germany</a>
+                            <a class="dropdown-item text-light" href="#">Italy</a>
+                            <a class="dropdown-item text-light" href="#">New Zealand</a>
+                            <a class="dropdown-item text-light" href="#">Spain</a>
+                            <a class="dropdown-item text-light" href="#">Switzerland</a>
+                            <a class="dropdown-item text-light" href="#">United States</a>
+                            <a class="dropdown-item text-light" href="#">Australia</a>
+                            <a class="dropdown-item text-light" href="#">Belgium</a>
+                            <a class="dropdown-item text-light" href="#">Denmark</a>
+                            <a class="dropdown-item text-light" href="#">FRANCE</a>
+                            <a class="dropdown-item text-light" href="#">IRELAND</a>
+                            <a class="dropdown-item text-light" href="#">NETHETLANDS</a>
+                            <a class="dropdown-item text-light" href="#">NORWAY</a>
+                            <a class="dropdown-item text-light" href="#">SWEDEN</a>
+                            <a class="dropdown-item text-light" href="#">UNITED</a>
+                            <a class="dropdown-item text-light" href="#">KINGDOM</a>
+                            </div>
+                        </div>
+                    
+                        <div class="dropdown end">
+                            <button class="btn btn-secondary dropdown-toggle bg-dark text-info" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            End
+                            </button>
+                            <div class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item text-light" href="#">Action</a>
+                            <a class="dropdown-item text-light" href="#">Another action</a>
+                            <a class="dropdown-item text-light" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    
+                        <div class="crossbotton">
+                            <img src="images/icon-close-grey@2x.png" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="allbgcolor text-light">
+            <div class="container-field">
+                <div class="firstpart">
+                    <div class="bgpicture">
+                        <a href="#">
+                            <img class="logo" src="images/logo-bianchi-white.svg" alt="">
+                        </a>
+                        <div class="container">
+                            <div class="titleword">
+                                <h6 class="text-white titletime">25 OCTOBER 2020</h6>
+                                <div class="biggesttitle">
+                                    <h1 class="text-white">BIANCHI<br> PRESENTS THE <br>ALL-NEW <br>SPECIALISSIMA</p>
+                                </div>
+                                <div class="second_part_of_title">
+                                    <div class="line_bellow_title"></div>
+                                    <!-- 想辦法齊右 -->
+                                    <h6 class="text-white the_right_part_of_secondtitle">RE-ENGINEERED WITH THE ALL-ROUNDER IN MIND, THE NEW SPECIALISSIMA CARBON DISC FRAME COMBINES LIGHTWEIGHT AND SUPERB STIFFNESS </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row content_box">
+                    <div class="main_content">
+                        <!-- 原來的網站是用分別用兩個p把圖片包起來,有什麼樣的好處嗎?還是有常見的作法? -->
+                        <p>
+                            <img src="images/specialissima-27.jpg" alt="">
+                        </p>
+                        <p>On the heels of one of the most successful World Tour campaigns, Bianchi is proud to introduce its latest     
+                            road racing   machine: Specialissima.
+                            <br>
+                            Totally re-engineered by Bianchi with the all-rounder in mind, the new carbon disc frame weighs just 750g (painted, size 55), but it’s also superbly stiff, providing excellent transfer of power to the road. The new Specialissima is designed for UCI WorldTour professionals to be a complete racing bike. Whether it is to fly up the climbs or to dominate on the flat, the new Specialissima is the solution.
+                            <br>
+                            Bearing a name that has become iconic, Specialissima is a new pure racing machine with enhanced climbing, improved stopping power courtesy of disc brakes and smoother aerodynamic performance.
+                            <br>
+                            The new all-rounder model designed by Bianchi will be the official bike of both men’s and women’s GreenEDGE WorldTour teams, joining Bianchi’s world-famous aero model Oltre.</p>
+                        <p>
+                            <img src="images/specialissima-cover-1.jpg" alt="">
+                        </p>
+                        <p>ALL-ROUND EXCELLENCE
+                            <br>
+                            The Specialissima sits at the top of Bianchi’s road racing all-rounder category, delivering superb climbing panache, with boosted aero-performance and a level of stiffness rarely seen on a bike this light.
+                            <br>
+                            The carbon disc frame weighs just 750g and the stiffness to weight ratio is what WorldTour riders love and need. Bianchi CV vibration cancelling system amplifies the ride feel, erasing imperfections and enhancing control when the road goes downhill.
+                            <br>
+                            For those aero improvements, Bianchi employed innovations devised for the prolific Oltre aero platform, with better integration (internal cable routing, integrated seatpost and cockpit), sharper lines and aero-shaped tubes, massively enhancing the riding experience.</p>
+                        <p>
+                            <img src="images/specialissima-21.jpg" alt="">
+                        </p>
+                        <p>NEW COLOURWAYS
+                            Bianchi changed not only Specialissima’s technical features but also the looks with cleaner aero lines and fresh colourways.
+                            <br>
+                            To continue the Bianchi heritage, Celeste still makes an appearance, but it’s also available in the ultra-light all-black colourway, created especially for the WorldTour with a weight-saving of 80 g. Completing the lineup is a classy new greenish blue option, with hallmark Italian style.</p>
+                        <p>
+                            <img src="images/specialissima-19.jpg" alt="">
+                        </p>
+                        <p>SIGNATURE COLLECTION
+                            Specialissima can also be customized thanks to 
+                            <!-- 如何更改顏色? -->
+                            <a class ="new_bianchi"href="#">new Bianchi Colour Configurator</a>
+                            , which allows customers to select from different combinations and create a unique version. Bianchi has also created a “Signature Collection” for those who value rarity and aesthetic, choosing from five different colourways for the frame and graphics, prepared and selected by Bianchi creative designers to offer exclusive pieces of art. All frames are hand-painted in Italy by Bianchi’s expert artisans and with iridescent and holographic elements.
+                            
+                        </p>
+                        <p>
+                            <img src="images/OP_201014_Bianchi_Specialissima_0782.jpg" alt="">
+                        </p>
+                        <p><span> ALL-ROUNDER / SPECIALISSIMA</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-field middle_bar">
+                <!-- <div class="view_all_news"> -->
+                <a href="#">VIEW ALL NEWS</a> 
+            </div>
+
+            <div class="the_word_bellow_middle_bar">
+                <P>RELATED NEWS</P>
+            </div>
+
+            <div class="container">
+                <div class="secondone_part_of_main">
+                    <div>
+                        <p>26 MARCH 2021</p>
+                        <P>NEW SPECIALISSIMA DELIVERS FIRST WORLD TOUR SUCCESS</P>
+                        <div class="btn_discovermore">
+                            <span class="noselect">DISCOVER MORE</span>
+                          </div>
+                    </div>
+                    <div>
+                        <img src="images/Linkedin-3-1-634x452.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="secondtwo_part_of_main">
+                    <div>
+                        <img src="images/bettiniphoto_0493341_1_2000px-634x452.jpg" alt="">
+                    </div>
+                    <div>
+                        <p>25 MARCH 2021</p>
+                        <p>SIMON YATES MAKES A PROMISING START TO SEASON IN TIRRENO-ADRIATICO</p>
+                        <p>DISCOVER MOR</p>
+                    </div>
+                </div>
+
+                <div class="secondthird_part_of_main">
+                    <div>
+                        <p>18 FEBRUARY 2021</p>
+                        <p>BIANCHI KICKS OFF 2021 RACING SEASON IN STYLE</p>
+                        <p>DISCOVER MOR</p>
+                    </div>
+                    <div>
+                        <img src="images/1SCGE9930-634x452.jpg" alt="">
+                    </div>
+                </div>
+
+            <div>
+        </div>
+    </main> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
+

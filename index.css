@@ -1,0 +1,289 @@
+/* *{
+    outline: 1px red solid;
+} */
+
+/*-----all-----*/
+/* 如果用滾輪縮小放大會有問題 */
+
+.blueword{
+    font-size: .82rem;
+    font-family: NeusaNextPro-Comp;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #55b7b3;
+}
+
+/*----- nav -----*/
+
+/* .navbarA{
+    padding: 1rem 1rem;
+}
+
+.nav-right{
+    justify-content: flex-end;
+}
+
+.nav_btn{
+    margin-right:60px;
+}
+
+.navbar .containerA{
+    margin-left: 0px;
+    margin-right:0px ;
+}
+*/
+
+.button_cross{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.button_cross img{
+    width: 19px;
+    height: 19px;
+} 
+
+.bg-darkdark{
+    background-color: #111;
+}
+
+/* .wordcolor{
+    color: #55b7b3;
+} */
+/*-----title picture -----*/
+.bgpicture{
+    width: 100%;
+    min-height: 350px;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(17, 17, 17), rgb(0,0,0,0) 100%),url('images/OP_201014_Bianchi_Specialissima_0782.jpg') center center no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.logo img{
+    margin: 20px;
+    width: 10%;
+}
+
+.titleword{
+    margin: 8% auto auto auto;
+    width: 100%;
+}
+
+.text-white{
+    margin: 0px;    
+}
+
+.biggesttitle{
+    width: 100%;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2rem;
+    padding: 0px;
+}
+
+
+.line_bellow_title{
+    border-top: aqua solid 2px;
+}
+
+
+.subtitle{
+    line-height: 2rem;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+/* 之前寫錯的程式碼 觀念錯誤 留作教訓 */
+/* .the_right_part_of_secondtitle{
+    line-height: 20px;
+    font-size: 1.7rem; 
+    letter-spacing: 1.1px; 
+    text-transform :uppercase大寫/lowercase小寫/capitalize每個字第一個字母大寫 
+    text-transform: uppercase; 
+    可以平均分配每一個字跟字中間的寬度,讓空白變長 
+    text-align: justify;  
+    font-weight: 500; 
+    word-break: normal;
+}  */
+
+/* -----second_main----- */
+
+.main_content{
+    margin-top: 50px;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.second_main span{
+    font-weight: 800;
+}
+
+.new_bianchi{
+    color: #55b7b3;
+    text-decoration: underline;
+}
+
+.new_bianchi:hover{
+    color: #55b7b3;
+}
+
+
+.blue_bar{
+    display: flex;
+    justify-content: center;
+    background-color: #55b7b3;
+    padding: 13px 0;
+    margin: 24px 0 85px 0;
+    font-weight: 900;
+    color: #111;
+    font-size: .95rem;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    line-height: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.blue_bar:hover{
+    color:#000;
+    text-decoration: none;
+}
+
+.middle_bar a{
+    color:#000; 
+}
+
+.the_word_bellow_middle_bar{
+    margin-bottom: 15px;
+    font-size: 6rem;
+    /* 字形是不是要外掛字體近來才能解決? */
+    /* font-family: NeusaNextPro-Comp; */
+}
+/*------------------------footer---------------------------- */
+.third_main_title{
+    font-size: 2.5rem;
+    line-height: 2rem;
+}
+
+.youremailhere{
+    display: block;
+    border: 0 ;
+    border-bottom: 1px solid #343a40;
+    width: 100%;
+    background-color: #111;
+    padding: 7px;
+    color:#55b7b3;
+    }
+
+/* 偽元素選擇器(Pseudo-Elements Selector)模式  */
+/* 可以選擇標籤內的屬性 用法是在前面打上兩個冒號 */
+::placeholder {
+    color: #55b7b3;
+    font-size:0.9em;
+    font-weight:bold;
+    padding-left:1em;
+}
+
+
+.btn_sucscribe{
+    color: #000;
+    background-color: #55b7b3;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-weight: bold;
+}
+
+.footerlist{
+list-style: none;
+}
+
+.footerlist a{
+text-decoration: none;
+color: white;
+}
+
+.linebellowfootertitle{
+margin-bottom: 10px;
+}
+
+.linebellowfootertitle_one{
+height: 1px;
+border-bottom: #55b7b3 1px solid;
+}
+
+.linebellowfootertitle_two{
+height: 1px;
+border-bottom:#343a40 1px solid;
+}
+
+.cookiesaccept{
+background-color: rgb(4, 25, 26);
+border-top: 1px solid #000;
+position: fixed;
+bottom: 0px;
+width: 100%;
+}
+
+.Cookie_Policy{
+border-left: 1px solid #55b7b3;
+border-right:1px solid #55b7b3;
+}
+
+.lastline_footer a{
+width: 100%;
+color:#55b7b3;
+text-decoration: none;
+margin: 20px 0;
+}
+
+.btn{
+    border-radius: 0px;
+    font-size: small;
+}
+
+/*-----media query-----*/
+
+@media(max-width:990px){
+
+    .the_word_bellow_middle_bar{
+        font-size: 4rem;
+    }
+
+    .subscribe,#label_1_2_1{
+        font-size:70%;
+    }
+}
+
+@media(max-width:768px){
+
+    .cookiesaccept,.subscribe,#label_1_2_1{
+        font-size:50%;
+    }
+
+    .logo img{
+        margin: 10px;
+        width: 20%;
+    }
+
+    .subtitle{
+        text-align: start;
+    }
+
+    .the_word_bellow_middle_bar{
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:576px){
+
+    .cookiesaccept,.subscribe,#label_1_2_1{
+        font-size: 40%;
+    }
+
+}

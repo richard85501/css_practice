@@ -1,0 +1,94 @@
+/* <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>discovermore_logo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <style>  */
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } */
+
+        /* body {
+            height: 100vh;
+            background: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        .btn_discovermore {
+            width: 150px;
+            height: 50px;
+            border: 1px solid #eee;
+            font-family: 'Cinzel', serif;
+            font-size: .7rem;
+            /* 當指向某物的時候,游標可以有不同的變化 */
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 0;
+            transition: 0.2s;
+            color: #55b7b3;
+        }
+
+        .btn_discovermore::before, .btn_discovermore::after {
+            position: absolute;
+            background: #111;
+            z-index: -1;
+            transition: 0.2s;
+            content: '';
+        }
+
+        .btn_discovermore::before {
+            height: 50px;
+            width: 130px;
+        }
+
+        .btn_discovermore::after {
+            width: 150px;
+            height: 30px;
+        }
+
+        .noselect {
+            -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                    -ms-user-select: none;
+                        user-select: none;
+        }
+
+        .btn_discovermore:hover::before {
+            width: 0px;
+            background: #111;
+        }
+
+        .btn_discovermore:hover::after {
+            height: 0px;
+            background: #111;
+        }
+
+        .btn_discovermore:hover {
+            background: #111;
+            border:solid #55b7b3 1px;
+        }
+    /* </style>
+</head>
+<body>
+
+<div class="btn_discovermore">
+  <span class="noselect">DISCOVER MORE</span>
+</div>
+
+<!-- Thanks to @LSpell for feedback to reduce markup! -->
+<!-- 動畫網址:https://codepen.io/chancesq/pen/qBOyQoW -->
+</body>
+</html> */
